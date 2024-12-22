@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+   header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   }
+
+   .bold{
+        padding-left: 70px;
+        padding-top: 15px;
+         font-weight: 800;
+    }
+    .ajio{
+        padding-right: 90px;
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .color{
+        background-color: rgb(249, 246, 243);
+
+    }
+   
+   .hundered img{
+    width: 100%;
+   }
+  
+    .four{
+      display: flex;
+      justify-content: space-around;
+    }
+   
+    .six{
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    .three{
+      display: flex;
+      justify-content: space-around;
+    }
+    .box4{
+      background-color:#2a3741;
+    }
+    .box5{
+      background-color: #af9ec0;
+    }
+    .box7{
+      background-color: #97b7c4;
+    }
+    .box8{
+      background-color: black;
+    }
+    .box9{
+      background-color: #98bda0;
+    }
+    .box10{
+      background-color: #9ac5e0;
+    }
+    .box11{
+      background-color: #c6dda5;
+    }
+  /* list */
+   .list{
+    display: flex;
+    color: #cccccc;
+
+  }
+  .li{
+    margin-left:145px;
+    font-size: 12px;
+ 
+  }
+  .list1-1{
+    margin-top: 12px;
+  } 
+  ul{
+    list-style-type: none;
+  }
+  .lh{
+    padding-left: 35px;
+
+    
+  }
+  
+  .ft{
+    padding-top:40px ;
+    font-size: 11px;
+    padding-left: 170px;
+    color: #cccccc;
+ 
+  }
+  .foot{
+    background-color: #2c4152;
+  }
+  @media only screen and (min-width:350px) and (max-width:650px){
+    body{
+      .four{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+    .four img{
+      padding: 10px;
+    }
+   
+    .six{
+      display: flex;
+     flex-direction: column;
+     background-color: white;
+    }
+    .six img{
+      padding: 10px;
+    }
+  
+    .three{
+      display: flex;
+      flex-direction: column;
+      background-color: white;
+    }
+    .three img{
+      padding: 10px;
+    }
+    .list{
+    display: flex;
+    flex-direction: column;
+  }
+  .li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .ft{
+    padding-left: 80px;
+    }
+    }
+  }
+  @media only screen and (min-width:800px) and (max-width:1100px){
+  .li{
+    margin-left:50px;
+    font-size: 12px;
+ 
+  }
+}

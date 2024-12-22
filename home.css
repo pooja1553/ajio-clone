@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+   
+.bold{
+        padding-left: 70px;
+         padding-top: 15px;
+        font-weight: 800;
+    }
+    .ajio{
+        padding-right: 90px;
+        padding-top: 10px;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .color{
+        background-color: rgb(249, 246, 243);
+
+    }
+
+
+.hundered img{
+  width: 100%;
+}
+
+ .three{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+  }
+
+  .four{
+    display: flex;
+    justify-content: space-around;
+  }
+  .box6-2{
+    background-color: #96b5c7;
+  }
+  .box7-2{
+    background-color: #273145;
+  }
+  .box11{
+    background-color: #42647e;
+  }
+  .box12-1{
+    background-color:#698ba4 ;
+  }
+  .box12-2{
+    background-color: #698ba4;
+  }
+  .box14-1,.box14-2{
+    background-color: #d98199;
+  }
+  .box15{
+    background-color: #c4dda6;
+  }
+ /* list */
+  .list{
+    display: flex;
+    color: #cccccc;
+
+  }
+  .li{
+    margin-left:145px;
+    font-size: 12px;
+ 
+  }
+  .list1-1{
+    margin-top: 12px;
+  } 
+  ul{
+    list-style-type: none;
+  }
+  .lh{
+    padding-left: 35px;
+   
+  }
+  
+  .ft{
+    padding-top:40px ;
+    font-size: 11px;
+    padding-left: 170px;
+    color: #cccccc;
+ 
+  }
+  .foot{
+    background-color: #2c4152;
+  }
+  
+  @media only screen and (min-width:350px) and (max-width:650px){
+    body{
+    .three{
+      background-color: white;
+    display: flex;
+    flex-direction: column;
+   }
+   .three img{
+   padding: 10px;
+   }
+
+  .four{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  .four img{
+     padding: 10px;
+  }
+  .list{
+    display: flex;
+    flex-direction: column;
+  }
+  .li{
+    margin-left: 40px;
+    margin-bottom: 20px;
+    font-size: 12px;
+  }
+  .ft{
+    padding-left: 80px;
+    }
+    }
+   }
+   header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+     /* margin: 0;
+    padding: 0;
+    border: 2px solid red; */
+  }
+  /* nav{
+    border: 2px solid blue;
+    margin: 0;
+    padding: 0;
+  }
+  .color{
+    border: 2px solid red;
+    margin: 0;
+    padding: 0;
+  } */
+  @media only screen and (min-width:800px) and (max-width:1100px){
+  .li{
+    margin-left:50px;
+    font-size: 12px;
+ 
+  }
+}
